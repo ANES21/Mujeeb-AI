@@ -54,3 +54,5 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`Groq AI is running on http://localhost:${PORT}`);
 });
+// أضف هذا السطر في نهاية ape.js
+module.exports = app;
