@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  🌐 <b><a href="https://mujeeb-ai.vercel.app">Live Demo</a></b>
+  🌐 <b><a href="https://mujeeb-ai-xi.vercel.app/">Live Demo</a></b>
 </p>
 
 ---
@@ -49,32 +49,3 @@
    ```bash
    git clone [https://github.com/ANES21/Mujeeb-AI.git](https://github.com/ANES21/Mujeeb-AI.git)
    cd Mujeeb-AI
-Install dependencies:
-
-Bash
-npm install
-Configure Environment Variables:
-Create a .env file in the root directory:
-
-Code snippet
-GROQ_API_KEY=your_actual_groq_api_key_here
-PORT=3000
-Start the server:
-
-Bash
-node ape.js
-Access the application at http://localhost:3000.
-
-📁 Project Structure
-Plaintext
-Mujeeb-AI/
-├── ape.js              # Express server & API route logic
-├── vercel.json         # Vercel serverless build configuration
-├── public/
-│   └── index.html      # Frontend UI, CSS, and JS logic
-├── .env.example        # Environment variable template
-├── .gitignore          # Ignored files & directories
-├── package.json        # Dependencies & package metadata
-└── README.md           # Documentation
-📄 License
-This project is open-source and available under the MIT License.
